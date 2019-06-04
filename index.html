@@ -5,12 +5,13 @@
 <script>THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'</script>
 
 <body style='margin : 0px; overflow: hidden;'>
+     <audio controls="controls">
+        <source src="song.mp3" type="assets/bday.mp3">
+    Your browser does not support this audio format.
+     </audio>
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
-    <a-assets>       
-        <audio id="bday" src="assets/bday.mp3"></audio> 
-    </a-assets>
         <a-marker preset='custom' url='assets/pattern-marker.patt'>
-            <a-entity position='-3 2 0' text="width: 5; value:I am Psyduck. We are pokemon. We love you" sound="src:#bday; autoplay: true; loop: true; on:click"></a-entity>
+            <a-entity position='-3 2 0' text="width: 5; value:I am Psyduck. We are pokemon. We love you"></a-entity>
             <a-entity position='0 0 0' gltf-model="assets/scene.gltf"></a-entity>
         </a-marker>
     </a-scene>
