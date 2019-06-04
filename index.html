@@ -1,23 +1,19 @@
 <!doctype HTML>
 <html>
     <head>
-        <title>HBD Aneri</title>
+        <title>Hello Mozilla</title>
         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
         <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
     </head>
 
-    <body style="margin: 0px; overflow: hidden;">
-        <a-scene embedded arjs="sourceType: webcam;">
-            
-            <a-assets>
-                <a-asset-item id="cake-obj" src="assets/cake.obj"></a-asset-item>
-                <a-asset-item id="cake-mtl" src="assets/cake.mtl"></a-asset-item>
-            </a-assets>
+    <body style='margin : 0px; overflow: hidden;'>
+		<a-scene embedded arjs='sourceType: webcam;'>
+            <a-marker-camera preset='hiro'>
 
-            <a-marker-camera present="hiro">
-                <a-obj-model src="#cake-obj" mtl="#cake-mtl" rotation="60 20 -155" scale="1 0.5 1"></a-obj-model>                
+                <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+                <a-sphere position="0 0.25 0" radius="0.25" color="#EF2D5E"></a-sphere>
+                
             </a-marker-camera>
-
-        </a-scene>        
+		</a-scene>
     </body>
 </html>
