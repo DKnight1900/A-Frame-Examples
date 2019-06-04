@@ -69,6 +69,7 @@
             <a-asset-item id="cake-obj" src="assets/cake.obj"></a-asset-item>
             <a-asset-item id="cake-mtl" src="assets/cake.mtl"></a-asset-item>
             <a-asset-item id="ultra" src="assets/ultra.json"></a-asset-item>
+	    <audio id="bday" src="assets/bday.mp3"></audio> 
         </a-assets>
 
         <a-marker-camera preset="hiro">
@@ -93,7 +94,7 @@
                     position="-1 0.25 0"
                     material="color: red"
                     scale="0.25 0.25 0.25"
-                    text-geometry="value: Happy B'day Aneri; font: #ultra">
+                    text-geometry="value: Happy B'day Aneri; font: #ultra" sound="src:#bday; autoplay: true; loop: true; on:click">
                 </a-entity>
             </a-entity>
 
