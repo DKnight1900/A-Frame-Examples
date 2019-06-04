@@ -63,13 +63,16 @@
 </head>
 
 <body style="margin: 0px; overflow: hidden;">
+    <audio controls="controls" autoplay="autoplay">
+        <source src="assets/bday.mp3" type="audio/mpeg" />
+    	Your browser does not support this audio format.
+     </audio>
+	
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
-        
         <a-assets>
             <a-asset-item id="cake-obj" src="assets/cake.obj"></a-asset-item>
             <a-asset-item id="cake-mtl" src="assets/cake.mtl"></a-asset-item>
             <a-asset-item id="ultra" src="assets/ultra.json"></a-asset-item>
-	    <audio id="bday" src="assets/bday.mp3"></audio> 
         </a-assets>
 
         <a-marker-camera preset="hiro">
@@ -94,7 +97,7 @@
                     position="-1 0.25 0"
                     material="color: red"
                     scale="0.25 0.25 0.25"
-                    text-geometry="value: Happy B'day Aneri; font: #ultra" sound="src:#bday; autoplay: true; loop: true; on:click">
+                    text-geometry="value: Happy B'day Aneri; font: #ultra">
                 </a-entity>
             </a-entity>
 
