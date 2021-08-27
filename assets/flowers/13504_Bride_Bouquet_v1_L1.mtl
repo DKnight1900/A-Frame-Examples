@@ -1,0 +1,52 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 28.02.2012 11:55:25
+
+newmtl _13504_Bride_Bouquet_v1_L113504BrideBouquet_rose_top
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8824 0.9255 0.8196
+	Kd 0.8824 0.9255 0.8196
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 13504BrideBouquet_diffuse.jpg
+	map_Kd 13504BrideBouquet_diffuse.jpg
+
+newmtl _13504_Bride_Bouquet_v1_L113504BrideBouquet_roseleaves
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1490 0.3490 0.0627
+	Kd 0.1490 0.3490 0.0627
+	Ks 0.4410 0.4410 0.4410
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _13504_Bride_Bouquet_v1_L113504BrideBouquet_paper
+	Ns 40.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7412 0.8078 1.0000
+	Ks 0.2430 0.2430 0.2430
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _13504_Bride_Bouquet_v1_L113504BrideBouquet_ribbon
+	Ns 0.0000
+	Ni 1.5000
+	d 0.8200
+	Tr 0.1800
+	Tf 0.8200 0.8200 0.8200 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9686 0.9765 1.0000
+	Ks 0.1620 0.1620 0.1620
+	Ke 0.0000 0.0000 0.0000
